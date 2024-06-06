@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/me.png.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: transparent;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+
+}
+
+.main{
+    max-width:  1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.title h2{
+    color: #ffffff7a;
+}
+
+.title h3{
+    text-align: center;
+    color: beige;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #292217b1;
+    padding: 30px;
+    color: antiquewhite;
+}
+.button{
+    color: antiquewhite;
+
+
+}
+

@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/me.png.jpg);
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: transparent;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+
+}
+
+.main{
+    max-width:  1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+}
+
+.fatin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: #000;
+
+
+}
+table, th, td {
+    border: 0.1px solid hwb(0 96% 4%);
+    color: antiquewhite;
+    background-color: #0000002e;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+} 
+.button{
+    color: antiquewhite;
+}
+.myvid{
+    width: 500px;
+    height: 281px;
+
+} 
+@media screen and (max-width: 600px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    th,
+    td {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+}
